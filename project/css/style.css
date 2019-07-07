@@ -321,31 +321,51 @@ section {
   background-color: red;
 }
 
-.f {
+.pagination {
+  display: block;
   margin-top: -70px;
-  margin-left: 834px;
-  list-style-type: none;
+  margin-left: 848px;
 }
 
-ul.f li {
-  display: inline;
-}
-
-.point {
-  text-decoration: none;
-  color: #ffffff;
+.pagination a {
+  margin-left: 8px;
+  float: left;
   width: 11px;
   height: 11px;
+  border: 1px solid #998675;
+  background-color: #959493;
+  border-radius: 50%;
+  text-decoration: none;
 }
 
-.point:hover {
-  width: 15px;
-  height: 15px;
-  background-image: url(../img/icon/02.png);
-  -webkit-background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+.pagination a:nth-child(2) {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid transparent;
+  background-color: #191A1F;
+  border-radius: 50%;
+  border: 2px solid #998675;
+}
+
+.pagination a:nth-child(2):hover {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid transparent;
+  background-color: #191A1F;
+  border-radius: 50%;
+  border: 2px solid #998675;
+}
+
+.pagination a:hover {
+  display: block;
+  width: 11px;
+  height: 11px;
+  border: 1px solid transparent;
+  background-color: #191A1F;
+  border-radius: 50%;
+  border: 2px solid #998675;
 }
 
 .main-article {
